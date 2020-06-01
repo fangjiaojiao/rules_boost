@@ -188,11 +188,10 @@ def boost_deps():
         http_archive(
             name = "org_bzip_bzip2",
             build_file = "@com_github_nelhage_rules_boost//:BUILD.bzip2",
-            sha256 = "a2848f34fcd5d6cf47def00461fcb528a0484d8edef8208d6d2e2909dc61d9cd",
+            sha256 = "d36043359401d03b37fcdf603e7952f1aaad459fb8d6941a18f9332ed3e023e5",
             strip_prefix = "bzip2-1.0.6",
             urls = [
-                "https://mirror.bazel.build/www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
-                "http://www.bzip.org/1.0.6/bzip2-1.0.6.tar.gz",
+                "https://nchc.dl.sourceforge.net/project/bzip2/bzip2-1.0.6.tar.gz",
             ],
         )
 
